@@ -1,9 +1,9 @@
-function calculadoraPartidasRankd(derrotas, vitorias){
+function calculadoraPartidasRanked(derrotas, vitorias){
     let calcular = vitorias - derrotas
     return calcular
 }
 
-let resultado = calculadoraPartidasRankd(10, 80)
+let resultado = calculadoraPartidasRanked(10, 80)
 let rank 
 
 while (true){ 
